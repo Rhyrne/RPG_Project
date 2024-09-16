@@ -822,7 +822,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 838994248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8876b22cf86c2a248bd9cf49fa7e577b, type: 3}
+  m_Script: {fileID: 11500000, guid: eed51b45380f0ff46b504cb463241bfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1345814585}
@@ -1242,8 +1242,8 @@ GameObject:
   - component: {fileID: 1345814584}
   - component: {fileID: 1345814583}
   - component: {fileID: 1345814582}
-  - component: {fileID: 1345814581}
   - component: {fileID: 1345814586}
+  - component: {fileID: 1345814581}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1260,10 +1260,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1345814580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 480540bfe01c38e4ab61708173c52288, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cc38812a6efaf140a6c18ed692aef6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!136 &1345814582
 CapsuleCollider:
   m_ObjectHideFlags: 0
