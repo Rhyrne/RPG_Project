@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|c:\\users\\asus\\desktop\\rpg_project\\rpg_project\\assets\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|c:\\users\\asus\\desktop\\rpg_project\\rpg_project\\assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mover.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Mover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mover.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Mover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mover.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T19:11:40.194Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -18,6 +40,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FollowCamera.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\FollowCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FollowCamera.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\FollowCamera.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\FollowCamera.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T19:11:35.075Z",
+              "EditorCaption": ""
             }
           ]
         }
