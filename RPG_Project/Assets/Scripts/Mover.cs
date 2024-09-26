@@ -6,17 +6,14 @@ using UnityEngine.AI;
 public class Mover : MonoBehaviour
 {
 
-    Ray lstRay;
-
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
             MoveToCursor();
         }
 
-        Debug.DrawRay(lstRay.origin, lstRay.direction * 100, Color.red);
-
+        UpdateAnimator();
     }
 
     private void MoveToCursor()
@@ -28,5 +25,13 @@ public class Mover : MonoBehaviour
         {
             GetComponent<NavMeshAgent>().destination = hit.point;
         }
+    }
+
+    private void UpdateAnimator()
+    {
+        Vector3 velocity = GetComponent<NavMeshAgent>().velocity;
+        Vector3 localVelocity = transform.InverseTransformDirection(velocity);
+        float speed = localVelocity.z;
+        GetComponent<Animator>().SetFloat("ForwardSpeed", speed);
     }
 }
