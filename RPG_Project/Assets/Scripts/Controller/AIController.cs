@@ -15,6 +15,8 @@ namespace RPG.Controller
         [SerializeField] float suspicionTime = 5f;
         [SerializeField] float waypointTolerence = 1f;
         [SerializeField] float waypointLifetime = 3f;
+        [Range(0,1)]
+        [SerializeField] float patrolSpeedFraction = 0.2f;
         [SerializeField] PatrolPath patrolPath;
 
         GameObject player;
@@ -67,7 +69,7 @@ namespace RPG.Controller
 
                 if(timeSinceArrivedWaypoint > waypointLifetime)
                 {
-                    mover.StartMoveAction(nextPosition);
+                    mover.StartMoveAction(nextPosition, patrolSpeedFraction);
                 }
             }
 
