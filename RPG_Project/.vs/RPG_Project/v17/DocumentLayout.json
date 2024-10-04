@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|c:\\users\\asus\\desktop\\rpg_project\\rpg_project\\assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\cinematics\\cinematiccontrolremover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cinematics\\cinematiccontrolremover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\controller\\patrolpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "CinematicControlRemover.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Cinematics\\CinematicControlRemover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cinematics\\CinematicControlRemover.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Cinematics\\CinematicControlRemover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cinematics\\CinematicControlRemover.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:04:54.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PatrolPath.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\PatrolPath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PatrolPath.cs",
@@ -74,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Core\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Health.cs",
@@ -86,20 +103,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AIController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\AIController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\AIController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\AIController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller\\AIController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAASAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:16:37.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T18:16:37.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FollowCamera.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Core\\FollowCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\FollowCamera.cs",
@@ -107,12 +123,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\FollowCamera.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T17:07:03.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T17:07:03.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IAction.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Core\\IAction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\IAction.cs",
@@ -124,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ActionScheduler.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Core\\ActionScheduler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\ActionScheduler.cs",
@@ -136,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Mover.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Movement\\Mover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\Mover.cs",
@@ -144,25 +159,23 @@
               "RelativeToolTip": "Assets\\Scripts\\Movement\\Mover.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T12:10:15.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T12:10:15.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PlayerController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller\\PlayerController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowEoAAABJAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAvwFMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T09:32:31.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T09:32:31.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Fighter.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Combat\\Fighter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Fighter.cs",
@@ -170,12 +183,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Combat\\Fighter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T09:30:30.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T09:30:30.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CombatTarget.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Combat\\CombatTarget.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\CombatTarget.cs",

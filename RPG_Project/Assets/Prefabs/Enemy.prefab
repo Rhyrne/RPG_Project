@@ -1,17 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-176788982794963642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216494474931086199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64bdfd93ad8b6a84d915d53d89d5ad81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-986067283538955024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24,7 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e914c50d4a064048bf29c8a79f9517f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseDistance: 5
+  chaseDistance: 7
+  suspicionTime: 2
+  waypointTolerence: 1
+  waypointLifetime: 1.5
+  patrolSpeedFraction: 0.2
+  patrolPath: {fileID: 0}
+--- !u!114 &-176788982794963642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216494474931086199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64bdfd93ad8b6a84d915d53d89d5ad81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2528035020573295133
 PrefabInstance:
   m_ObjectHideFlags: 0
