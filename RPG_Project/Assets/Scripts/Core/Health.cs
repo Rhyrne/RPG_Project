@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace RPG.Core
 {
     public class Health : MonoBehaviour
     {
         [SerializeField] float health = 100f;
+        [SerializeField] UnityEvent onDamage;
+        [SerializeField] UnityEvent onDie;
 
         bool isDead = false;
 
@@ -18,6 +21,7 @@ namespace RPG.Core
         public void TakeDamage(float damage)
         {
             health = Mathf.Max(health - damage, 0);
+            onDamage.Invoke();
             if(health == 0)
             {
                 Die();
@@ -32,6 +36,7 @@ namespace RPG.Core
             }
 
             isDead = true;
+            onDie.Invoke();
             GetComponent<Animator>().SetTrigger("Die");
             GetComponent<ActionScheduler>().CancelCurrentAction();
         }

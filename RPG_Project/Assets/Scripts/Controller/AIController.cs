@@ -13,6 +13,7 @@ namespace RPG.Controller
     {
         [SerializeField] float chaseDistance = 5f;
         [SerializeField] float suspicionTime = 5f;
+        [SerializeField] float aggroCooldownTime = 5f;
         [SerializeField] float waypointTolerence = 1f;
         [SerializeField] float waypointLifetime = 3f;
         [Range(0,1)]
@@ -27,6 +28,8 @@ namespace RPG.Controller
         Vector3 enemyLocation;
         float timeSinceLastSawPlayer;
         float timeSinceArrivedWaypoint;
+        float timeSinceAggrevate = Mathf.Infinity;
+
         int currentWaypointIndex = 0;
 
         void Start()
@@ -40,16 +43,18 @@ namespace RPG.Controller
 
         void Update()
         {
-            if (health.IsDead() == true) 
+            if (health.IsDead() == true)
             {
                 return;
             }
-            if(DistanceToPlayer() < chaseDistance && fighter.CanAttack(player))
+            if (IsAggrevated() && fighter.CanAttack(player))
             {
                 timeSinceLastSawPlayer = 0;
                 fighter.Attack(player);
+
+                AggrevateNearbyEnemies();
             }
-            else if(timeSinceLastSawPlayer < suspicionTime)
+            else if (timeSinceLastSawPlayer < suspicionTime)
             {
                 GetComponent<ActionScheduler>().CancelCurrentAction();
             }
@@ -59,7 +64,7 @@ namespace RPG.Controller
 
                 if (patrolPath != null)
                 {
-                    if(AtWaypoint())
+                    if (AtWaypoint())
                     {
                         timeSinceArrivedWaypoint = 0;
                         CycleWaypoint();
@@ -67,7 +72,7 @@ namespace RPG.Controller
                     nextPosition = GetNextWaypoint();
                 }
 
-                if(timeSinceArrivedWaypoint > waypointLifetime)
+                if (timeSinceArrivedWaypoint > waypointLifetime)
                 {
                     mover.StartMoveAction(nextPosition, patrolSpeedFraction);
                 }
@@ -75,6 +80,29 @@ namespace RPG.Controller
 
             timeSinceLastSawPlayer += Time.deltaTime;
             timeSinceArrivedWaypoint += Time.deltaTime;
+            timeSinceAggrevate += Time.deltaTime;
+        }
+
+        private void AggrevateNearbyEnemies()
+        {
+            RaycastHit[] hits = Physics.SphereCastAll(transform.position,15f,Vector3.up,0);
+            foreach(RaycastHit hit in hits)
+            {
+                AIController ai = hit.collider.GetComponent<AIController>();
+                if (ai == null) continue;
+
+                ai.Aggrevate();
+            }
+        }
+
+        private bool IsAggrevated()
+        {
+            return DistanceToPlayer() < chaseDistance || timeSinceAggrevate < aggroCooldownTime;
+        }
+
+        public void Aggrevate()
+        {
+            timeSinceAggrevate = 0;
         }
 
         private Vector3 GetNextWaypoint()

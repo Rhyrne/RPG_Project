@@ -12,6 +12,23 @@ namespace RPG.Controller
 
         Health health;
 
+        enum CursorType
+        {
+            None,
+            Movement,
+            Combat
+        }
+
+        [System.Serializable]
+        struct CursorMapping
+        {
+            public CursorType type;
+            public Texture2D texture;
+            public Vector2 hotspot;
+        }
+
+        [SerializeField] CursorMapping[] cursorMapping = null;
+
         private void Start()
         {
             health = GetComponent<Health>();
@@ -31,6 +48,7 @@ namespace RPG.Controller
             {
                 return;
             }
+            SetCursor(CursorType.None);
         }
 
         private bool InteractWithCombat()
@@ -59,6 +77,7 @@ namespace RPG.Controller
                 {
                     GetComponent<Fighter>().Attack(target.gameObject);
                 }
+                SetCursor(CursorType.Combat);
                 return true;
             }
             return false;
@@ -74,9 +93,28 @@ namespace RPG.Controller
                 {
                     GetComponent<Mover>().StartMoveAction(hit.point, 1f);
                 }
+                SetCursor(CursorType.Movement);
                 return true;
             }
             return false;
+        }
+
+        private void SetCursor(CursorType cursorType)
+        {
+            CursorMapping mapping = GetCursorMapping(cursorType);
+            Cursor.SetCursor(mapping.texture, mapping.hotspot, CursorMode.Auto);
+        }
+
+        private CursorMapping GetCursorMapping(CursorType type) 
+        {
+            foreach(CursorMapping mapping in cursorMapping)
+            {
+                if(mapping.type == type)
+                {
+                    return mapping;
+                }
+            }
+            return cursorMapping[0];
         }
 
         private static Ray GetMouseRay()

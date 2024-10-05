@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\combat\\weaponpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\combat\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\core\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|c:\\users\\asus\\desktop\\rpg_project\\rpg_project\\assets\\scripts\\combat\\weaponpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\weaponpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|c:\\users\\asus\\desktop\\rpg_project\\rpg_project\\assets\\scripts\\combat\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\combat\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|c:\\users\\asus\\desktop\\rpg_project\\rpg_project\\assets\\scripts\\combat\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\combat\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\scenemanagment\\fader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagment\\fader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,20 +55,12 @@
       "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\patrolpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\combat\\combattarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\combattarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\core\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48D48953-4A21-DA3A-20AF-D16529599E1F}|Assembly-CSharp.csproj|C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\assets\\scripts\\core\\actionscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,20 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Projectile.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Combat\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Projectile.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Combat\\Projectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\Combat\\Projectile.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAIAzwCwAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T16:49:54.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "WeaponPickup.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Combat\\WeaponPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\WeaponPickup.cs",
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Combat\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Weapon.cs",
@@ -124,12 +124,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Combat\\Weapon.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAgwDYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:30:27.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T14:30:27.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PresistantObjectSpawner.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Core\\PresistantObjectSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\PresistantObjectSpawner.cs",
@@ -141,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Fader.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\SceneManagment\\Fader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManagment\\Fader.cs",
@@ -153,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Portal.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\SceneManagment\\Portal.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManagment\\Portal.cs",
@@ -165,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CinematicControlRemover.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Cinematics\\CinematicControlRemover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cinematics\\CinematicControlRemover.cs",
@@ -177,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "PatrolPath.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\PatrolPath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PatrolPath.cs",
@@ -189,31 +188,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Core\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Health.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Core\\Health.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\Health.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowCUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:59:01.102Z"
+              "WhenOpened": "2024-09-29T18:59:01.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AIController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\AIController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\AIController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\AIController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller\\AIController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAASAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAiwFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:16:37.271Z"
+              "WhenOpened": "2024-09-29T18:16:37.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "FollowCamera.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Core\\FollowCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\FollowCamera.cs",
@@ -249,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Mover.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Movement\\Mover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\Mover.cs",
@@ -261,19 +262,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PlayerController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller\\PlayerController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAvwFMAAAAVAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAmwHIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T09:32:31.538Z"
+              "WhenOpened": "2024-09-29T09:32:31.538Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Fighter.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Combat\\Fighter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Fighter.cs",
@@ -281,12 +283,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Combat\\Fighter.cs",
               "ViewState": "AQIAAFIAAAAAAAAAAAAcwGMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T09:30:30.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T09:30:30.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CombatTarget.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\RPG_Project\\RPG_Project\\Assets\\Scripts\\Combat\\CombatTarget.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\CombatTarget.cs",
