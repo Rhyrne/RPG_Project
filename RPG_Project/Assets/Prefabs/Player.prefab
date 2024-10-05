@@ -19,6 +19,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3743820817276526949, guid: 34f3f2bfae1fd9f4d83b497bbd8fbde5,
+        type: 3}
+      propertyPath: weaponPrefab
+      value: 
+      objectReference: {fileID: 6228647158222338974, guid: 711deda3e6d951d43813cb17c2951dbe,
+        type: 3}
+    - target: {fileID: 3743820817276526949, guid: 34f3f2bfae1fd9f4d83b497bbd8fbde5,
+        type: 3}
+      propertyPath: weaponOverride
+      value: 
+      objectReference: {fileID: 22100000, guid: 7359ce3bca89fd84e9bcf23200b3765c,
+        type: 2}
     - target: {fileID: 3743820817276526951, guid: 34f3f2bfae1fd9f4d83b497bbd8fbde5,
         type: 3}
       propertyPath: m_RootOrder

@@ -275,3 +275,7 @@ C:\Users\ASUS\Desktop\RPG_Project\RPG_Project\obj\Debug\Assembly-CSharp.csproj.C
 C:\Users\ASUS\Desktop\RPG_Project\RPG_Project\obj\Debug\Assembly.44154EF1.Up2Date
 C:\Users\ASUS\Desktop\RPG_Project\RPG_Project\obj\Debug\Assembly-CSharp.dll
 C:\Users\ASUS\Desktop\RPG_Project\RPG_Project\obj\Debug\Assembly-CSharp.pdb
+C:\Users\ASUS\Desktop\RPG_Project\RPG_Project\Temp\bin\Debug\Cinemachine.dll
+C:\Users\ASUS\Desktop\RPG_Project\RPG_Project\Temp\bin\Debug\com.unity.cinemachine.editor.dll
+C:\Users\ASUS\Desktop\RPG_Project\RPG_Project\Temp\bin\Debug\Cinemachine.pdb
+C:\Users\ASUS\Desktop\RPG_Project\RPG_Project\Temp\bin\Debug\com.unity.cinemachine.editor.pdb
