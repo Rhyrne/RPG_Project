@@ -67,7 +67,10 @@
      <Compile Include="Assets\Scripts\Core\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Core\Health.cs" />
      <Compile Include="Assets\Scripts\Core\IAction.cs" />
+     <Compile Include="Assets\Scripts\Core\PresistantObjectSpawner.cs" />
      <Compile Include="Assets\Scripts\Movement\Mover.cs" />
+     <Compile Include="Assets\Scripts\SceneManagment\Fader.cs" />
+     <Compile Include="Assets\Scripts\SceneManagment\Portal.cs" />
      <None Include="Assets\Environments\Trees\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\Environments\Trees\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
      <None Include="Assets\Environments\Trees\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
@@ -621,6 +624,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -639,17 +645,14 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/ASUS/Desktop/RPG_Project/RPG_Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
